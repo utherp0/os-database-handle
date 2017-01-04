@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.uth.osdbhandle</groupId>
+  <artifactId>core</artifactId>
+  <version>1.0</version>
+</project>
