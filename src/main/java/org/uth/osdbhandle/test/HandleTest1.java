@@ -60,6 +60,12 @@ public class HandleTest1
             
             log( "Columns returned - " + metadata.getColumnCount());
             
+            for( int loop = 0; loop < metadata.getColumnCount(); loop++ )
+            {
+              String columnName = metadata.getColumnName(loop);
+              log( "  Pos: " + loop + " Name: " + columnName );
+            }
+            
             break;
             
           case "update":
